@@ -1,0 +1,27 @@
+.fon {
+        background-color: rgb(204, 202, 202);
+        height: 120px;
+        width: 100%;
+    }
+
+    .modal-body {
+        justify-content: space-evenly;
+    }
+
+    .welcome {
+        background-color: rgb(230, 237, 243);
+    }
+
+    .modal-footer,
+    .modal-header {
+        background-color: rgb(65, 62, 62);
+        color: white;
+        justify-content: center;
+    }
+
+    .navbar-brand {
+        color: white;
+    }
+    .nav-link {
+        color: white;
+    }
