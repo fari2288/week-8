@@ -10,10 +10,19 @@
 <style>
 
 
-.header {
+.header,
+.header1,
+.header2,
+.footer {
+    display: flex;
+    flex: 0 0 content;
     border: solid 1px violet;
+    font-size: larger;
+    width: 100%;
 }
-
+.header1 {
+    justify-content: space-between;
+}
 .body {
     display: flex;
     flex-wrap: wrap;
@@ -25,15 +34,13 @@
     width: 26%;
     padding: 30px;
 }
+
 .block_no-icon .block__icon {
     display: none;
 }
 
 .block_subscribe {
-    background-color: #EC615B;;
-    
-}
-.flex {
+    background-color: #EC615B;
 }
 
 .img {
@@ -49,11 +56,12 @@
 .btn {
     background-color: #5222D0;
     border-radius: 20px;
-    margin-top: 10px;
-    height: 30px;
+    margin-top: 30px;
+    height: 40px;
 }
+
 .email {
-    height: 30px;
+    height: 30%;
 }
 </style>
 
@@ -61,10 +69,17 @@
 
 
 <body>
-    <div class="flex">
-    <div class="header">Возможности</div>
-
+    
+    
     <div class="body">
+        <div class="header"><img src="assets/browser.svg"></div>
+
+        <div class="header1">
+        <div><h2><img src="assets/Ellipse_3.svg">Виарушка</h2></div>
+        <div><button class="btn text1">Корзина<i class="fas fa-shopping-basket"></i></button></div>
+        </div>
+
+        <div class="header2"><h1>Возможности</h1></div>
     <div class="block">
         <div class="block__icon"><img src="assets/Illustration_4.svg" alt="img" class="img"></div>
         <div class="block__title"><p class="text"><h2>Без проводов</h2></p></div>
@@ -116,7 +131,7 @@
 
 
 
-</div></div>
+</div></div></div>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/5e2dd29a9a.js" crossorigin="anonymous"></script>
