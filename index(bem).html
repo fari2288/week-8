@@ -6,120 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-
-<style>
-
-
-.header,
-.header1,
-.header2,
-.footer {
-    display: flex;
-    flex: 0 0 content;
-    font-size: larger;
-    width: 100%;
-}
-.header1 {
-    justify-content: space-between;
-}
-.body {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.block {
-    width: 26%;
-    padding: 30px;
-}
-
-.block_no-icon .block__icon {
-    display: none;
-}
-
-.block_subscribe {
-    background-color: #EC615B;
-}
-
-.img {
-    width: 100%;
-    height: 100%;
-}
-.text {
-    font-size: larger;
-}
-.text1 {
-    color: white;
-}
-.btn {
-    background-color: #5222D0;
-    border-radius: 20px;
-    margin-top: 30px;
-    height: 40px;
-}
-
-.email {
-    height: 30%;
-}
-</style>
-
+    <link rel="stylesheet" href="assets/style(bem).css">
 </head>
 
 
 <body>
     
-    
-    <div class="body">
+<div class="body">
 
-        <div class="header"><img src="assets/browser.svg"></div>
+    <div class="header"><img src="assets/browser.svg" alt="img"></div>
 
-        <div class="header1">
-        <div><h2><img src="assets/Ellipse_3.svg">Виарушка</h2></div>
+    <div class="header1">
+        <div><h2><img src="assets/Ellipse_3.svg" alt="img">Виарушка</h2></div>
         <div><button class="btn text1">Корзина<i class="fas fa-shopping-basket"></i></button></div>
-        </div>
+    </div>
 
-        <div class="header2"><h1>Возможности</h1></div>
+    <div class="header2"><h1>Возможности</h1></div>
 
     <div class="block">
         <div class="block__icon"><img src="assets/Illustration_4.svg" alt="img" class="img"></div>
-        <div class="block__title"><p class="text"><h2>Без проводов</h2></p></div>
+        <div class="block__title"><h2>Без проводов</h2></div>
         <div class="block__text"><p>Шлем работает без проводов. Не нужен ни компьютер, ни внешнее питание, ни большое помещение, чтобы расставить трекеры.</p></div>
     </div>
 
     <div class="block">
         <div class="block__icon"><img src="assets/Illustration_2.svg" alt="img" class="img"></div>
-        <div class="block__title"><p><h2>Без компьютера</h2></p></div>
+        <div class="block__title"><h2>Без компьютера</h2></div>
         <div class="block__text"><p>Современным VR-шлемам нужен мощный компьютер, чтобы запускать игры. Наш шлем запускает игры из облака, поэтому просто наслаждайтесь.</p></div>
     </div>
 
     <div class="block">
         <div class="block__icon"><img src="assets/Illustration_9.svg" alt="img" class="img"></div>
-        <div class="block__title"><p><h2>До 10 часов работы</h2></p></div>
+        <div class="block__title"><h2>До 10 часов работы</h2></div>
         <div class="block__text"><p>Несмотря на компактность и производительность, шлем может работать до 10 часов - даже, если вы играете в ресурсоемкие игры.</p></div>
     </div>
 
     <div class="block block_no-icon">
         <div class="block__icon"><img src="assets/Illustration_9.svg" alt="img" class="img"></div>
-        <div class="block__title"><p><h2>Сотни игр</h2></p></div>
+        <div class="block__title"><h2>Сотни игр</h2></div>
         <div class="block__text"><p>Уже сейчас вам домтупно более сотни игр: от высокобюджетныз ААА-тайтлов до маленьких независимых проектов. Скоро их станет еще больше.</p></div>
     </div>
     
     <div class="block block_no-icon">
         <div class="block__icon"><img src="assets/Illustration_9.svg" alt="img" class="img"></div>
-        <div class="block__title"><p><h2>Почти даром</h2></p></div>
+        <div class="block__title"><h2>Почти даром</h2></div>
         <div class="block__text"><p>По сравнению с другими VR-шлемами наш стоит гораздо меньше. И вы существенно экономите на мощном компьютере.</p></div>
     </div>
 
     <div class="block block_subscribe">
-        <div class="block__title"><p><h2 class="text1">Новости</h2></p></div>
+        <div class="block__title"><h2 class="text1">Новости</h2></div>
         <div class="block__email"><input class="email" value="Эл. почта"></div>
         <div class="block__button"><button class="btn text1">Подписаться</button></div>
     </div>
 
 </div>
-</div>
-    </div>
-</div></div>
+
 
     <div class="footer">
     <div>Возможности</div>
@@ -127,11 +68,10 @@
     <div>Доставка</div>
     <div>Помощь</div>
     </div>
-</div></div>
 
 
 
-</div></div></div>
+
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/5e2dd29a9a.js" crossorigin="anonymous"></script>

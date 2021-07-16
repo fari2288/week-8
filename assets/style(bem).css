@@ -1,0 +1,57 @@
+
+.header,
+.header1,
+.header2,
+.footer {
+    display: flex;
+    flex: 0 0 content;
+    font-size: larger;
+    width: 100%;
+}
+
+.header1 {
+    justify-content: space-between;
+}
+
+.body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.block {
+    width: 26%;
+    padding: 30px;
+}
+
+.block_no-icon .block__icon {
+    display: none;
+}
+
+.block_subscribe {
+    background-color: #EC615B;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+.text {
+    font-size: larger;
+}
+
+.text1 {
+    color: white;
+}
+
+.btn {
+    background-color: #5222D0;
+    border-radius: 20px;
+    margin-top: 30px;
+    height: 40px;
+}
+
+.email {
+    height: 30%;
+}

@@ -1,0 +1,28 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header {
+display: flex;
+justify-content: space-between;
+}
+
+.block_no-icon .block__icon {
+display: none;
+}
+
+.block_subscribe {
+background-color: #EC615B;
+}
+
+.img {
+width: 100%;
+height: 100%;
+}
+
+.btn {
+justify-content: end;
+border-radius: 30px;
+margin-top: 20px;
+}
